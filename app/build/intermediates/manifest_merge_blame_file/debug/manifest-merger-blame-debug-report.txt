@@ -1,0 +1,382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.tvleanback"
+4    android:versionCode="2"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml
+10
+11    <permission
+12        android:name="com.example.android.tvleanback.ACCESS_VIDEO_DATA"
+12-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:7:9-58
+13        android:protectionLevel="signature" />
+13-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:8:9-44
+14
+15    <uses-permission android:name="com.example.android.tvleanback.ACCESS_VIDEO_DATA" />
+15-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:10:22-71
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:11:5-67
+16-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:13:5-71
+18-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:13:22-68
+19
+20    <uses-feature
+20-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:15:5-17:36
+21        android:name="android.hardware.microphone"
+21-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:16:9-51
+22        android:required="false" />
+22-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:17:9-33
+23    <uses-feature
+23-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:18:5-20:36
+24        android:name="android.hardware.touchscreen"
+24-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:19:9-52
+25        android:required="false" />
+25-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:20:9-33
+26    <uses-feature
+26-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:21:5-23:35
+27        android:name="android.software.leanback"
+27-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:22:9-49
+28        android:required="true" />
+28-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:23:9-32
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\c6770eda00af6c105866b6db09ea3053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.android.tvleanback.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\c6770eda00af6c105866b6db09ea3053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\c6770eda00af6c105866b6db09ea3053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.android.tvleanback.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\c6770eda00af6c105866b6db09ea3053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\c6770eda00af6c105866b6db09ea3053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:25:5-184:19
+37        android:allowBackup="false"
+37-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:26:9-36
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\c6770eda00af6c105866b6db09ea3053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+39        android:banner="@drawable/videos_by_google_banner"
+39-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:27:9-59
+40        android:debuggable="true"
+41        android:icon="@drawable/app_icon_quantum"
+41-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:28:9-50
+42        android:label="@string/app_name"
+42-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:29:9-41
+43        android:logo="@drawable/videos_by_google_banner"
+43-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:30:9-57
+44        android:testOnly="true"
+45        android:theme="@style/Theme.Leanback" >
+45-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:31:9-46
+46        <activity
+46-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:33:9-39:20
+47            android:name="com.example.android.tvleanback.fiphum"
+47-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:34:13-35
+48            android:exported="false" >
+48-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:35:13-37
+49            <meta-data
+49-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+50                android:name="android.app.lib_name"
+50-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+51                android:value="" />
+51-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+52        </activity>
+53        <activity
+53-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:40:9-46:20
+54            android:name="com.example.android.tvleanback.fai"
+54-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:41:13-32
+55            android:exported="false" >
+55-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:42:13-37
+56            <meta-data
+56-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+57                android:name="android.app.lib_name"
+57-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+58                android:value="" />
+58-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+59        </activity>
+60        <activity
+60-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:47:9-53:20
+61            android:name="com.example.android.tvleanback.fatek"
+61-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:48:13-34
+62            android:exported="false" >
+62-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:49:13-37
+63            <meta-data
+63-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+64                android:name="android.app.lib_name"
+64-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+65                android:value="" />
+65-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+66        </activity>
+67        <activity
+67-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:54:9-60:20
+68            android:name="com.example.android.tvleanback.febis"
+68-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:55:13-34
+69            android:exported="false" >
+69-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:56:13-37
+70            <meta-data
+70-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+71                android:name="android.app.lib_name"
+71-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+72                android:value="" />
+72-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+73        </activity>
+74        <activity
+74-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:61:9-67:20
+75            android:name="com.example.android.tvleanback.mobile.fasilitas"
+75-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:62:13-45
+76            android:exported="true" >
+76-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:63:13-36
+77            <meta-data
+77-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+78                android:name="android.app.lib_name"
+78-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+79                android:value="" />
+79-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+80        </activity>
+81        <activity
+81-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:68:9-74:20
+82            android:name="com.example.android.tvleanback.mobile.visiMisi"
+82-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:69:13-44
+83            android:exported="true" >
+83-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:70:13-36
+84            <meta-data
+84-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+85                android:name="android.app.lib_name"
+85-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+86                android:value="" />
+86-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+87        </activity>
+88        <activity
+88-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:75:9-87:20
+89            android:name="com.example.android.tvleanback.mobile.TentangUniv"
+89-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:76:13-47
+90            android:exported="true" >
+90-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:77:13-36
+91            <meta-data
+91-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:36:13-38:36
+92                android:name="android.app.lib_name"
+92-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:37:17-52
+93                android:value="" />
+93-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:38:17-33
+94
+95            <intent-filter>
+95-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:82:13-86:29
+96                <action android:name="android.intent.action.MAIN" />
+96-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:83:17-69
+96-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:83:25-66
+97
+98                <category android:name="android.intent.category.LAUNCHER" />
+98-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:85:17-77
+98-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:85:27-74
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:88:9-101:20
+102            android:name="com.example.android.tvleanback.ui.MainActivity"
+102-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:89:13-44
+103            android:exported="true"
+103-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:90:13-36
+104            android:icon="@drawable/videos_by_google_banner"
+104-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:91:13-61
+105            android:label="@string/app_name"
+105-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:92:13-45
+106            android:logo="@drawable/videos_by_google_banner"
+106-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:93:13-61
+107            android:screenOrientation="landscape"
+107-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:94:13-50
+108            android:theme="@style/Theme.Leanback.Browse" >
+108-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:95:13-57
+109            <intent-filter>
+109-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:96:13-100:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:83:17-69
+110-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:83:25-66
+111
+112                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+112-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:99:17-86
+112-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:99:27-83
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:102:9-110:20
+116            android:name="com.example.android.tvleanback.mobile.MobileWelcomeActivity"
+116-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:103:13-57
+117            android:exported="true" >
+117-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:104:13-36
+118            <intent-filter>
+118-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:82:13-86:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:83:17-69
+119-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:83:25-66
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:85:17-77
+121-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:85:27-74
+122            </intent-filter>
+123        </activity>
+124
+125        <meta-data
+125-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:112:9-114:56
+126            android:name="android.app.default_searchable"
+126-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:113:13-58
+127            android:value=".ui.VideoDetailsActivity" />
+127-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:114:13-53
+128
+129        <activity
+129-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:116:9-131:20
+130            android:name="com.example.android.tvleanback.ui.VideoDetailsActivity"
+130-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:117:13-52
+131            android:exported="true"
+131-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:118:13-36
+132            android:theme="@style/Theme.Leanback.Details" >
+132-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:119:13-58
+133
+134            <!-- Receives the search request. -->
+135            <intent-filter>
+135-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:122:13-125:29
+136                <action android:name="android.intent.action.SEARCH" />
+136-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:123:17-71
+136-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:123:25-68
+137                <!-- No category needed, because the Intent will specify this class component -->
+138            </intent-filter>
+139
+140            <!-- Points to searchable meta data. -->
+141            <meta-data
+141-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:128:13-130:54
+142                android:name="android.app.searchable"
+142-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:129:17-54
+143                android:resource="@xml/searchable" />
+143-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:130:17-51
+144        </activity>
+145        <activity
+145-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:132:9-136:49
+146            android:name="com.example.android.tvleanback.ui.PlaybackActivity"
+146-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:133:13-48
+147            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|layoutDirection"
+147-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:134:13-107
+148            android:launchMode="singleTask"
+148-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:135:13-44
+149            android:resizeableActivity="true" />
+149-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:136:13-46
+150        <activity
+150-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:137:9-141:66
+151            android:name="com.example.android.tvleanback.ui.VerticalGridActivity"
+151-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:138:13-52
+152            android:exported="true"
+152-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:139:13-36
+153            android:parentActivityName="com.example.android.tvleanback.ui.MainActivity"
+153-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:140:13-58
+154            android:theme="@style/Theme.Leanback.VerticalGrid" />
+154-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:141:13-63
+155        <activity android:name="com.example.android.tvleanback.ui.SearchActivity" />
+155-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:142:9-55
+155-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:142:19-52
+156        <activity
+156-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:143:9-145:72
+157            android:name="com.example.android.tvleanback.ui.GuidedStepActivity"
+157-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:144:13-50
+158            android:theme="@style/Theme.Example.Leanback.GuidedStep" /> <!-- Provides search suggestions for keywords against video metadata. -->
+158-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:145:13-69
+159        <provider
+160            android:name="com.example.android.tvleanback.data.VideoProvider"
+160-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:147:13-47
+161            android:authorities="com.example.android.tvleanback"
+161-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:148:13-49
+162            android:exported="true"
+162-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:149:13-36
+163            android:permission="com.example.android.tvleanback.ACCESS_VIDEO_DATA" >
+163-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:150:13-68
+164            <path-permission
+164-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:151:13-153:77
+165                android:pathPrefix="/search"
+165-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:152:17-45
+166                android:readPermission="android.permission.GLOBAL_SEARCH" />
+166-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:153:17-74
+167        </provider>
+168
+169        <receiver
+169-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:156:9-163:20
+170            android:name="com.example.android.tvleanback.recommendation.RecommendationReceiver"
+170-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:157:13-66
+171            android:enabled="true"
+171-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:158:13-35
+172            android:exported="false" >
+172-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:159:13-37
+173            <intent-filter>
+173-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:160:13-162:29
+174                <action android:name="android.intent.action.BOOT_COMPLETED" />
+174-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:161:17-79
+174-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:161:25-76
+175            </intent-filter>
+176        </receiver>
+177
+178        <service
+178-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:165:9-167:40
+179            android:name="com.example.android.tvleanback.data.FetchVideoService"
+179-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:166:13-51
+180            android:exported="false" />
+180-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:167:13-37
+181        <service
+181-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:168:9-170:38
+182            android:name="com.example.android.tvleanback.recommendation.UpdateRecommendationsService"
+182-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:169:13-72
+183            android:enabled="true" />
+183-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:170:13-35
+184
+185        <activity
+185-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:172:9-176:64
+186            android:name="com.example.android.tvleanback.ui.OnboardingActivity"
+186-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:173:13-50
+187            android:enabled="true"
+187-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:174:13-35
+188            android:exported="true"
+188-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:175:13-36
+189            android:theme="@style/Theme.Leanback.Onboarding" />
+189-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:176:13-61
+190        <activity
+190-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:177:9-180:58
+191            android:name="com.example.android.tvleanback.ui.SettingsActivity"
+191-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:178:13-48
+192            android:exported="true"
+192-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:179:13-36
+193            android:theme="@style/LeanbackPreferences" />
+193-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:180:13-55
+194        <activity
+194-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:181:9-183:72
+195            android:name="com.example.android.tvleanback.ui.AuthenticationActivity"
+195-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:182:13-54
+196            android:theme="@style/Theme.Example.Leanback.GuidedStep" />
+196-->C:\Users\ASUS\AndroidStudioProjects\univ\app\src\main\AndroidManifest.xml:183:13-69
+197
+198        <provider
+198-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+199            android:name="androidx.startup.InitializationProvider"
+199-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+200            android:authorities="com.example.android.tvleanback.androidx-startup"
+200-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+201            android:exported="false" >
+201-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+202            <meta-data
+202-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+203                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+203-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+204                android:value="androidx.startup" />
+204-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\7b79f7e4a058224274d9b5ea417be867\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+205            <meta-data
+205-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+206                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+206-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+207                android:value="androidx.startup" />
+207-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\e49fb580d7eda2494a8100e094041989\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+208        </provider>
+209    </application>
+210
+211</manifest>

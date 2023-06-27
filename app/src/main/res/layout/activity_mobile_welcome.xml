@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome">
+
+
+    <ImageView
+        android:id="@+id/logouniv"
+        android:layout_width="113.55px"
+        android:layout_height="135.58px"
+        android:layout_marginLeft="1130px"
+        android:layout_marginTop="30.64px"
+        android:src="@drawable/logouniv"
+        />
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:text="UNIVERSITAS PELITA BANGSA"
+        android:fontFamily="@font/roboto"
+        android:textSize="22px"
+        android:textStyle="bold"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="110px"></TextView>
+
+    <ImageView
+        android:layout_width="280px"
+        android:layout_height="112px"
+        android:id="@+id/ttgUniv"
+        android:src="@drawable/ttguniv"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="160px"
+        android:onClick="ttgUniv"></ImageView>
+
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:text='FAKULTAS'
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:textSize="22px"
+        android:layout_marginTop="350px"
+        android:layout_marginLeft="70px"></TextView>
+
+    <ImageView
+        android:layout_width="280px"
+        android:layout_height="112px"
+        android:src="@drawable/febis"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="450px"
+        android:onClick="febis"></ImageView>
+
+    <ImageView
+        android:layout_width="280px"
+        android:layout_height="112px"
+        android:src="@drawable/fatek"
+        android:layout_marginLeft="360px"
+        android:layout_marginTop="450px"
+        android:onClick="fatek"></ImageView>
+
+    <ImageView
+        android:layout_width="280px"
+        android:layout_height="112px"
+        android:src="@drawable/fiphum"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="450px"
+        android:onClick="fiphum"></ImageView>
+
+    <ImageView
+        android:layout_width="280px"
+        android:layout_height="112px"
+        android:src="@drawable/fai"
+        android:layout_marginLeft="940px"
+        android:layout_marginTop="450px"
+        android:onClick="fai"></ImageView>
+</RelativeLayout>

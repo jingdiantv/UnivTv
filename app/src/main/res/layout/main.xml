@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_frame"
+    tools:context="com.example.android.tvleanback.ui.MainFragment"
+    android:background="@drawable/bghome">
+
+    <ImageView
+        android:layout_width="113.55px"
+        android:layout_height="135.58px"
+        android:layout_marginLeft="1130px"
+        android:layout_marginTop="30.64px"
+        android:src="@drawable/logouniv"
+        />
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:text="Introduction to The Pelita Bangsa"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="230px"></TextView>
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:text='Terakreditasi Perguruan tinggi dengan "PREDIKAT B" '
+        android:fontFamily="@font/roboto"
+        android:textSize="22px"
+        android:layout_marginTop="360px"
+        android:layout_marginLeft="70px"></TextView>
+
+    <Button
+        android:id="@+id/tbMulai"
+        android:layout_width="163px"
+        android:layout_height="59px"
+        android:text="MULAI"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:textSize="22px"
+        android:layout_marginTop="450px"
+        android:layout_marginLeft="70px"
+        android:backgroundTint="#6945FF"
+        android:onClick="mulai"></Button>
+
+</RelativeLayout>
