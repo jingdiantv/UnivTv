@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bghome"
+    >
+
+    <FrameLayout
+        android:layout_width="650px"
+        android:layout_height="450px"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="170px"
+<<<<<<< HEAD
+        android:id="@+id/visin">
+        <VideoView
+            android:id="@+id/visi"
+=======
+        android:background="@drawable/video"
+        android:id="@+id/visin">
+        <VideoView
+            android:id="@+id/visi"
+            android:layout_gravity="center"
+>>>>>>> 034e3e2 (update video)
+            android:layout_width="650px"
+            android:layout_height="450px"
+            ></VideoView></FrameLayout>
+
+    <ImageView
+        android:id="@+id/logouniv"
+        android:layout_width="200.55px"
+        android:layout_height="150.58px"
+        android:layout_marginLeft="940px"
+        android:layout_marginTop="161.64px"
+        android:src="@drawable/logouniv"
+        />
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="48px"
+        android:text="Fakultas Agama Islam (FAI)"
+        android:fontFamily="@font/roboto"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_marginLeft="850px"
+        android:layout_marginTop="350px"></TextView>
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="48px"
+        android:text="Universitas Pelita Bangsa"
+        android:fontFamily="@font/roboto"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_marginLeft="860px"
+        android:layout_marginTop="400px"></TextView>
+
+
+    <Button
+        android:id="@+id/tbHome"
+        android:layout_width="163px"
+        android:layout_height="59px"
+<<<<<<< HEAD
+=======
+        android:background="@drawable/tombol"
+>>>>>>> 034e3e2 (update video)
+        android:text="HOME"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:textSize="22px"
+        android:layout_marginTop="520px"
+        android:layout_marginLeft="950px"
+        android:backgroundTint="#6945FF"
+        android:onClick="mulai"></Button>
+</RelativeLayout>
